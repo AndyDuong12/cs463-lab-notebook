@@ -17,7 +17,7 @@ li[class*="do"] {
 
 /* 1 & 5 */
 li[class$="og"] {
-  color: var(--magenta);
+  color: var(--violet);
 }
 
 /* 2 */
