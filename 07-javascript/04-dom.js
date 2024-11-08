@@ -10,7 +10,6 @@ let output = document.querySelector(".output");   // #output for id, .output for
 copy.addEventListener("click", handleClick);
 
 // callback function to handle event
-// output.textContent is not working!!!
 function handleClick(event) {
   output.textContent = userInput.value;
 }
