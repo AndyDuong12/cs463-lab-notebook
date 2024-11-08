@@ -4,7 +4,7 @@
 // fetch JavaScript objects representing specific elements in the DOM
 let userInput = document.querySelector("#userInput1");
 let copy = document.querySelector("#copy");
-let output = document.querySelector("#output");
+let output = document.querySelector(".output");   // #output for id, .output for class
 
 // add an event listener on the target element
 copy.addEventListener("click", handleClick);
